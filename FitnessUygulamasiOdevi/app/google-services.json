@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "589242144902",
+    "project_id": "fitness-uygulamasi-odevi",
+    "storage_bucket": "fitness-uygulamasi-odevi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589242144902:android:eb975e3c923a576525d907",
+        "android_client_info": {
+          "package_name": "com.example.fitnessuygulamasiodevi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUtWcNvRPxQRxkCFIWdLWoO6tpfoWlM78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

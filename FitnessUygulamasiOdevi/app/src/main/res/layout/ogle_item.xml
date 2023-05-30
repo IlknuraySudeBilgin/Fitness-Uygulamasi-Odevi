@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="16dp"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/isim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="İsim :"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                />
+
+            <TextView
+                android:id="@+id/kalori"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 200cal"
+                android:textSize="22sp"
+                android:paddingRight="20dp"
+                android:textColor="@color/black"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="130dp"
+                android:id="@+id/arttir_ogle"
+                android:background="@drawable/plus_circle_1427_svgrepo_com"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/black"
+                android:id="@+id/adet"
+                android:textSize="28sp"
+                android:layout_toRightOf="@+id/addquantity"/>
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/azalt"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toRightOf="@+id/quantity"
+                android:background="@drawable/minuss"/>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

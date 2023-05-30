@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDEACE"
+    tools:context=".OgleActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recView_ogle"
+        android:layout_width="match_parent"
+        android:layout_height="642dp"
+        android:layout_above="@+id/relative"
+        android:layout_marginBottom="0dp" />
+
+    <LinearLayout
+
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#ccd1d4"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+
+        >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="TOPLAM KALORİ"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/kalori"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="0"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/btngunlukkalori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gonder"
+            android:textSize="20sp"
+            android:background="#83B549"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"/>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

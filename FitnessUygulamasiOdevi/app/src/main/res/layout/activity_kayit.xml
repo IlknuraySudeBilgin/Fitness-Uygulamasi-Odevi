@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccd1d4"
+    android:orientation="vertical"
+    tools:context=".KayitActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="KAYIT OL"
+android:layout_gravity="center"        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/kayitIsim"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/ed_sekil"
+        android:gravity="center"
+        android:hint="Adınız" />
+
+    <EditText
+        android:id="@+id/kayitEmail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ed_sekil"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/Sifre"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ed_sekil"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Şifre" />
+
+    <EditText
+        android:id="@+id/sifreOnay"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ed_sekil"
+        android:hint="Şifre Onay"
+        android:gravity="center"
+        />
+
+
+
+
+
+    <Button
+        android:id="@+id/btnKayitOl"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="KAYIT OL"
+        android:background="@drawable/btn_sekil"
+        />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7E6C6"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/imageLogo"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/img"
+        android:adjustViewBounds="true"
+        android:maxWidth="180dp"
+        />
+
+    <TextView
+        android:id="@+id/CepteDiyet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CEPTE DİYET"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageLogo"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+
+    <Button
+        android:id="@+id/btngirisYap"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="GİRİŞ Yap"
+        android:layout_below="@+id/CepteDiyet"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_sekil"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnKayitOl"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="KAYIT OL"
+        android:layout_below="@+id/btngirisYap"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_sekil"
+
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
